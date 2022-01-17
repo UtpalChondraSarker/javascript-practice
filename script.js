@@ -600,6 +600,29 @@ var watchPrice=200;
 watchPrice=250;
 console.log(watchPrice);
 
+var vowels=['a','e','i','o','u']
+console.log(vowels)
+var resultVowels=vowels.length;
+console.log(resultVowels);
+
+var friendAge=[12,13,14,15,16,17];
+console.log(friendAge[3])
+var index=friendAge[2]+friendAge[4]
+console.log(index)
+
+console.log(friendAge[2]=30)
+console.log(friendAge.unshift(50))
+console.log(friendAge)
+console.log(friendAge.push(56));
+console.log(friendAge);
+console.log(friendAge.pop(0));
+console.log(friendAge.shift(0));
+console.log((friendAge));
+console.log(friendAge.splice(3,5));
+console.log(friendAge);
+
+
+
 
 
 
