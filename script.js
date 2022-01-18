@@ -163,8 +163,7 @@ switch(mark){
          
      case 33 :
          console.log('this is Grade D');
-         break;
-         
+         break;    
      default:
          console.log('this is Faile')    
 }
@@ -621,18 +620,70 @@ console.log((friendAge));
 console.log(friendAge.splice(3,5));
 console.log(friendAge);
 
+console.log(friendAge[0]=33);
+console.log(friendAge);
+
+
+var isFoodReady=true;
+if(isFoodReady==true){
+    console.log('Mama ! I will eat now');
+
+}
+
+var iPhone=100000;
+var myMoney=40000;
+if(iPhone<myMoney){
+    console.log('iphoe');
+}
+if(iPhone>myMoney){
+    console.log('shaomi is best phone');
+}
+
+if(iPhone<myMoney){
+    console.log('iphone diye pic tole putani marbo');
+}else{
+    console.log('samsung is best phone');
+}
+
+var job=true;
+var money=200000;
+
+if(job==true && money>25000000){
+    console.log('col biye kore peli');
+}
+else{
+    console.log('tor kopale biye nai');
+}
+
+var job=false;
+var money=200000;
+var house=true;
+
+if((job==true && money>25000)|| house==true){
+    console.log(' biye kore peli');
+}
+else{
+    console.log(' kopale biye nai');
+}
 
 
 
+//nested
 
+var bargar=50;
+var pani=40;
+var biskit=10;
+var Mybajet=11;
 
-
-
-
-
-
-
-
-
-
-
+if(bargar<Mybajet){
+    console.log('ami bargar khabo');
+}
+else if(pani<Mybajet){
+    console.log('pani khabo');
+}
+else if(biskit<Mybajet){
+    console.log('biskit khab');
+}
+else{
+    console.log('ami kisu ai khabo na');
+}
